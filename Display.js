@@ -11,14 +11,21 @@ const Display = ({ value }) => {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#f0f0f0',
+        width: '100%',
+        height: 100,
+        borderRadius: 10,
+        borderWidth: 5,
+        paddingHorizontal: 10,
+        justifyContent: 'center',
+        backgroundColor: 'white',
+        margin: 5,
         padding: 10,
         marginBottom: 10,
         alignItems: 'flex-end',
     },
     text: {
-        fontSize: 30,
-        color: '#333',
+        fontSize: 45,
+        color: 'black',
     }
 });
 
